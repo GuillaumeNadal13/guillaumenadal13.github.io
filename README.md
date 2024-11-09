@@ -1,2 +1,3 @@
-# GuillaumeNadal.github.io
-Site web perso
+# Guillaume Nadal web site
+
+This is the repostitory of my website.

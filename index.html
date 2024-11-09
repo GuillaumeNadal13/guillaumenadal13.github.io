@@ -1,39 +1,96 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenue sur mon site</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f9;
-        }
-        .container {
-            text-align: center;
-            padding: 20px;
-            border: 1px solid #ddd;
-            background-color: #fff;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #666;
-        }
-    </style>
+    <title>Guillaume Nadal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Bienvenue sur mon site GitHub Pages</h1>
-        <h2>Un simple site hébergé gratuitement par GitHub</h2>
-        <p>Ceci est une page web simple pour tester GitHub Pages.</p>
-    </div>
+    <!-- Main Header with Name -->
+    <header>
+        <h1>Guillaume Nadal</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#CV">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="CV.pdf" download="Guillaume_Nadal_CV.pdf">Download CV</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Sections -->
+    <main>
+        <section id="about">
+            <h2>Who am I?</h2>
+            <p>Hi, I'm Guillaume Nadal, an engineering physicist specializing in Atom Probe Tomography (APT) reconstruction.
+                Currently pursuing a Master’s degree at Polytechnique Montreal, I am focused on transforming raw APT data
+                into realistic 3D models of analyzed materials. <br>
+                My expertise lies in two main areas: first, applying solid-state and quantum physics to understand
+                material properties; and second, leveraging programming languages to process large datasets and develop
+                models that simulate the physical behavior of matter.
+            </p>
+
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <!-- Project 1 -->
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1 Image">
+                <div class="project-details">
+                    <h3>APT reconstruction</h3>
+                    <p>Atom Probe Tomography (APT) is an advanced microscopy technique that employs field ion emission
+                        to extract individual atoms from a material, enabling a precise 3D reconstruction of its atomic
+                        structure. This project aims to enhance reconstruction accuracy by integrating crystal plane data.</p>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project">
+                <img src="project2.png" alt="Project 2 Image">
+                <div class="project-details">
+                    <h3>Cadmium Zinc Telluride</h3>
+                    <p>This project focuses on understanding the defect structures in the CdZnTe alloy, a material
+                        widely used in medical imaging for X-ray detection. CdZnTe crystals often contain various
+                        structural defects, and gaining insight into these surrounding defects can directly contribute
+                        to improving the crystal growth process. </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="CV">
+            <h2>
+                CV
+            </h2>
+            <h3>
+                Studies
+            </h3>
+            <h4>
+                Master degree
+            </h4>
+            <h4>
+                Bachelor
+            </h4>
+            <h4>
+                CPGE
+            </h4>
+
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p></p>
+            <p>
+                <a href="CV.pdf" download="Guillaume_Nadal_CV.pdf">Download my CV</a>
+            </p>
+        </section>
+    </main>
 </body>
 </html>
